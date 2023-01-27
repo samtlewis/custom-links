@@ -26,4 +26,7 @@ class CustomLinks extends Tool
     {
         return view('custom-links::navigation');
     }
+    
+    abstract public function menu(Request $request);
+
 }
